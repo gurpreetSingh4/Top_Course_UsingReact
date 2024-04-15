@@ -1,10 +1,9 @@
-import React,{ useState } from "react";
+import React,{ useState ,useEffect } from "react";
 import {filterData , apiUrl} from './data';
 import Navbar from "./components/Navbar"
 import Filter from "./components/Filter";
 import Cards from "./components/Cards";
 import { toast } from "react-toastify";
-import { useEffect } from "react";
 import Spinner from "./components/Spinner";
 
 const App = () => {
